@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+html {
+  font-size: 62.5%;
+}
+
+/* section-1 */
+
+#section1 {
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0.4) 60%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(images/NETFLIX.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-bottom: 8px solid #222;
+}
+.menu-bar {
+  width: 100%;
+  height: 110px;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 53px;
+}
+.netflix-header {
+  font-size: 40px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-ser;
+  color: #e50914;
+}
+.sign-in-btn {
+  height: 40px;
+  width: 92px;
+  background-color: #e50914;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 9px 17px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.hero-section {
+  width: 100%;
+  max-width: 950px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin: 0 auto;
+  padding-top: 60px;
+  text-align: center;
+}
+.content-heading {
+  font-size: 65px;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-ser;
+  justify-content: center;
+  align-items: center;
+}
+.content-pre-heading {
+  font-size: 26px;
+  font-weight: 400;
+  padding: 10px 0;
+  color: #fff;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-ser;
+}
+.Email-heading {
+  font-size: 19px;
+  font-weight: 400;
+  color: #fff;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-ser;
+  padding: 10px 0;
+}
+.form {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.Email-input {
+  width: 497px;
+  height: 68px;
+  background-color: #fff;
+  padding: 0 8px;
+  font-size: 18px;
+  border: none;
+  border-radius: 2px 0 0 2px;
+}
+.form button {
+  margin-left: 2px;
+  width: 245px;
+  height: 68px;
+  font-size: 30px;
+  background-color: #e50914;
+  color: #fff;
+  border: none;
+  border-radius: 0 2px 2px 0;
+}
+.form button i {
+  padding-left: 8px;
+  font-size: 25px;
+}
+
+/* End of section-1 */
+
+/* section-2 */
+#section-2 {
+  height: 465px;
+  width: auto;
+  background-color: #000;
+  border-bottom: 8px solid #222;
+}
+.sectoin-2-wrapper {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  background-color: #000;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec-2-content {
+  width: 52%;
+  padding-left: 210px;
+  display: block;
+  color: #fff;
+}
+.section-2-heading {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 55px;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-ser;
+}
+.section-2-sub {
+  font-size: 26px;
+  font-weight: 400;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-ser;
+  padding-top: 20px;
+}
+.sec-2-img {
+  width: 48%;
+  display: flex;
+}
+.section-2-img {
+  width: 75%;
+}
+
+/* End of section-2 */
+
+/* Section-3 */
+#section-3 {
+  height: 465px;
+  width: auto;
+  background-color: #000;
+  border-bottom: 8px solid #222;
+}
+.section-3-wrapper {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  background-color: #000;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec-3-img {
+  width: 48%;
+  padding-left: 120px;
+  display: flex;
+}
+.section-3-img {
+  width: 75%;
+}
+.sec-3-content {
+  width: 52%;
+  display: block;
+  color: #fff;
+}
+.section-3-heading {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 55px;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-ser;
+}
+.section-3-sub {
+  font-size: 26px;
+  font-weight: 400;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-ser;
+  padding-top: 20px;
+}
+/* End of Section-3 */
+
+/* Section-4 */
+#section-4 {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  border-bottom: 8px solid #222;
+  color: #fff;
+}
+.section-4-content {
+  width: 80%;
+  height: auto;
+  margin-left: 200px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+.sec-4-heading {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 55px;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-ser;
+}
+.sec-4-subheading {
+  font-size: 26px;
+  font-weight: 400;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-ser;
+  padding-top: 20px;
+}
+/* End of Section-4 */
+
+/* Section-5 */
+
+#section-5 {
+  height: 512px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  border-bottom: 8px solid #222;
+}
+.section-5-wrapper {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  background-color: #000;
+  justify-content: space-between;
+  align-items: center;
+}
+.sec-5-img {
+  width: 48%;
+  padding-left: 120px;
+  display: flex;
+}
+.section-5-img {
+  width: 75%;
+}
+.sec-5-content {
+  width: 52%;
+  display: block;
+  color: #fff;
+}
+.section-5-heading {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 55px;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-ser;
+}
+.section-5-sub {
+  font-size: 26px;
+  font-weight: 400;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-ser;
+  padding-top: 20px;
+}
+/* End of Section-5 */
+
+/* Footer */
+#footer-section {
+  width: 100%;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #888;
+  background-color: #000;
+}
+.link-wrapper {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  background-color: #000;
+  justify-content: space-around;
+  align-items: center;
+}
+.question {
+  font-size: 16px;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-ser;
+  list-style: none;
+  text-decoration: none;
+  color: #888;
+}
+.question:hover {
+  text-decoration: underline;
+}
+.links li {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 30px;
+  list-style: none;
+}
+.links a {
+  text-decoration: none;
+  color: #888;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-ser;
+}
+.links a:hover {
+  text-decoration: underline;
+}
+/* End of Footer */
